@@ -37,9 +37,16 @@ export default App
 import React from "react";
 import Afficher11 from "./Component/Rendu";
 import Afficher12 from "./Component/Rendu1";
+import Afficher13 from "./Component/Rendu2";
+import Fruits from "./Component/Fruits";
+import User from "./Component/User";
 function App(){
-  return(<div>< Afficher11/>
-   < Afficher12/>
+  return(<div>
+    {< Afficher11/>}
+   {< Afficher12/>}
+     {< Afficher13/>}
+    { < Fruits/>}
+      < User/>
     </div>
   )
 }

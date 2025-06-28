@@ -1,7 +1,7 @@
 import React, { useState} from "react";
 function Afficher12(){
  const [text, setText]= useState('');
- const[valide, setValide]= useState(false);
+ const[valide, setValide]= useState(null);
  const Click = ()=> {setValide
    (text.length>3);};
    const Changer=(e)=>{setText(e.target.value)} 
